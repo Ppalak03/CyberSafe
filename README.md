@@ -63,12 +63,5 @@ The platform provides realistic cybersecurity situations where users identify wh
 6. Start Apache and MySQL.
 7. Open the application in your browser.
 
-## 👩‍💻 Developed By
-
-**Palak Prajapati**
-
-MCA Student | Aspiring Software Developer
-
----
 
 *CyberSafe — Think Before You Click. Stay Safe Online.*
