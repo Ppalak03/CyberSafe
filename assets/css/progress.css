@@ -1,0 +1,16 @@
+.stat-grid.five{grid-template-columns:repeat(5,1fr)}
+.chart-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:1rem 0}
+.chart-grid .card h2{font-size:1.1rem;margin-bottom:.25rem}
+.small{font-size:.85rem;margin:0 0 .5rem}
+.chart-box{position:relative;height:280px}.chart-box.short{height:240px}
+.weak{margin-bottom:1rem;border-left:4px solid var(--amber)}
+.weak h2{font-size:1.15rem}.weak p{margin:.3rem 0 1rem}
+.table-wrap{overflow-x:auto;margin-top:.75rem}
+.table{width:100%;border-collapse:collapse;font-size:.92rem;min-width:760px}
+.table th{text-align:left;color:var(--muted);font-weight:500;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;padding:.5rem .6rem;border-bottom:1px solid var(--border)}
+.table td{padding:.65rem .6rem;border-bottom:1px solid rgba(51,70,95,.5);vertical-align:top}
+.res{font-weight:600;font-size:.85rem}.res.ok{color:var(--green)}.res.bad{color:var(--red)}
+.pager{display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:1rem}
+@media (max-width:991px){.stat-grid.five{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:700px){.chart-grid{grid-template-columns:1fr}.chart-grid .span-2{grid-column:auto}}
+@media (max-width:420px){.stat-grid.five{grid-template-columns:1fr}}

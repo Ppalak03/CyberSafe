@@ -1,0 +1,5 @@
+.auth-main{display:grid;place-items:center;padding:2.5rem 1rem;min-height:calc(100vh - 70px);background:radial-gradient(ellipse at top,#14243A 0%,#0B1220 60%)}
+.auth-card{width:100%;max-width:440px;background:var(--card);border:1px solid var(--border);border-radius:18px;padding:2rem;box-shadow:var(--shadow)}
+.auth-card h1{font-size:1.7rem}
+.auth-card form{margin-top:1.25rem}
+.auth-switch{text-align:center;margin:1.25rem 0 0;color:var(--muted);font-size:.95rem}

@@ -1,0 +1,25 @@
+.head-row{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap}
+.user-head{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap}
+.filters{display:flex;gap:1rem;align-items:flex-end;flex-wrap:wrap;margin-bottom:1rem}
+.filters .field{margin:0}.filters .grow{flex:1;min-width:200px}
+select,textarea{width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);border-radius:10px;padding:.65rem .8rem;font:inherit}
+textarea{resize:vertical}
+select:focus,textarea:focus{border-color:var(--blue);outline:none;box-shadow:0 0 0 3px rgba(56,189,248,.25)}
+.btn-danger{background:transparent;border-color:var(--red);color:var(--red)}.btn-danger:hover{background:rgba(248,113,113,.12)}
+.status{font-size:.8rem;font-weight:600}.status.done{color:var(--green)}.status.off{color:var(--muted)}
+.actions{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}.actions form{display:flex;gap:.4rem}
+.table td.actions{min-width:260px}
+.quick{display:flex;flex-direction:column;gap:.6rem}
+.form-card{max-width:900px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 1rem}
+.form-grid .span-2{grid-column:span 2}
+.form-h{font-size:1.1rem;margin:1.5rem 0 .75rem;padding-top:1rem;border-top:1px solid var(--border)}
+fieldset.ctype{border:0;padding:0;margin:0}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.radio-row{display:flex;gap:1.5rem;flex-wrap:wrap;margin:.5rem 0}.radio{display:flex;gap:.5rem;align-items:center;font-weight:600;margin:0;cursor:pointer}
+.radio input{accent-color:var(--blue);width:18px;height:18px}
+.switch-row{display:flex;gap:.8rem;align-items:flex-start;cursor:pointer;margin:1rem 0}
+.switch-row input{width:20px;height:20px;margin-top:.2rem;accent-color:var(--blue)}
+.switch-row span{display:flex;flex-direction:column}
+.field-error.list{list-style:disc;padding-left:1.2rem;margin:.25rem 0 1rem}
+@media (max-width:700px){.form-grid{grid-template-columns:1fr}.form-grid .span-2{grid-column:auto}.filters .btn{width:100%}}

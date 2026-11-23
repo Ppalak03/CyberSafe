@@ -1,0 +1,14 @@
+.page-head{margin-bottom:1.5rem}
+.acct-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;max-width:1000px}
+.acct-grid .span-2{grid-column:span 2}
+.acct-grid h2{font-size:1.15rem;margin-bottom:1rem}
+input:disabled{opacity:.6;cursor:not-allowed}
+.pw-form{max-width:460px}
+.switch-row{display:flex;gap:.8rem;align-items:flex-start;cursor:pointer}
+.switch-row input{width:20px;height:20px;margin-top:.2rem;accent-color:var(--blue)}
+.switch-row span{display:flex;flex-direction:column}
+.badge-row{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.5rem}
+.badge-chip{display:flex;align-items:center;gap:.5rem;padding:.45rem .75rem;border:1px solid var(--border);border-radius:99px;background:var(--bg2);font-size:.88rem}
+.badge-chip i{color:var(--amber)}
+.link-more{display:inline-block;margin-top:1rem;font-size:.9rem;text-decoration:none}
+@media (max-width:760px){.acct-grid{grid-template-columns:1fr}.acct-grid .span-2{grid-column:auto}}

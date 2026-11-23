@@ -1,0 +1,18 @@
+@media (max-width:991px){
+  .sidebar{position:fixed;left:0;top:0;z-index:60;transform:translateX(-100%);transition:transform .2s ease;width:260px}
+  .sidebar.open{transform:none}
+  .sidebar-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:50}
+  .menu-toggle{display:inline-grid}
+  .app-shell{display:block}
+}
+@media (max-width:600px){
+  h1{font-size:1.6rem}
+  .public-nav{padding:.8rem 1rem}
+  .public-nav nav{gap:.75rem;font-size:.9rem}
+  .public-nav nav a:not(.btn):nth-child(-n+3){display:none}
+  .content{padding:1.25rem 1rem 2.5rem}
+  .user-name{display:none}
+  .auth-card{padding:1.4rem}
+  .btn-row .btn{width:100%}
+  .toasts{left:1rem;right:1rem}
+}
